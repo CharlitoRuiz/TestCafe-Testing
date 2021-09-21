@@ -1,0 +1,6 @@
+{
+    "baseURL": "https://www.seleniumeasy.com/test/basic-first-form-demo.html",
+    "message": "Message TestCafe from json file",
+    "numA": "2",
+    "numB": "1"
+}

@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "testcafe-reporter-teamcity": "^1.0.12",
+    "testcafe-reporter-tesults": "^1.1.0"
+  }
+}

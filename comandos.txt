@@ -1,0 +1,19 @@
+npm install -g testcafe
+npm install --save-dev testcafe
+
+
+npx testcafe chrome test.ts
+
+npx testcafe chrome tests
+npx testcafe firefox tests
+npx testcafe edge tests
+
+npx testcafe "chrome:headless" tests
+npx testcafe "firefox:headless" tests
+
+npm install testcafe-reporter-tesults
+npx testcafe chrome tests -r tesults -- tesults-target=target1 tesults-config=config.json
+
+npm install testcafe-reporter-teamcity
+
+TestLatte
